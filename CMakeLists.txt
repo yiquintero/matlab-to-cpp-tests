@@ -23,7 +23,7 @@ FetchContent_Declare(
   GIT_REPOSITORY https://gitlab.com/libeigen/eigen.git
   GIT_TAG        3.4.0 # Change this to the desired version
 )
-FetchContent_MakeAvailable(Eigen)
+FetchContent_Populate(Eigen)
 
 # Enable testing in CMake
 enable_testing()
